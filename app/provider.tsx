@@ -19,7 +19,8 @@ const CreateNewUser = async () => {
   return (
     <div>
         <UserDetailContext.Provider value={{userDetail, setUserDetail}}>
-            {children}
+            <div className='max-w-7xl mx-auto'>
+            {children}</div>
         </UserDetailContext.Provider>
     </div>
    
